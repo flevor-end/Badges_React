@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/Badges.css";
-import confLogo from "../images/badge-header.svg";
+// import confLogo from "../images/badge-header.svg";
 import BadgesList from "../components/BadgesList";
 import PageLoading from "../components/PageLoading";
 import Miniloader from "../components/MiniLoader";
@@ -51,11 +51,7 @@ class Badges extends React.Component {
         <div className="Badges">
           <div className="Badges__hero">
             <div className="Badges__container">
-              <img
-                className="Badges__conf-logo"
-                src={confLogo}
-                alt="conf logo"
-              />
+              <h1>Fabi Badges</h1>
             </div>
           </div>
         </div>

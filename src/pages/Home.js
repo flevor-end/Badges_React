@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/Home.css";
-import platziconfLogoImage from "../images/platziconf-logo.svg";
+// import platziconfLogoImage from "../images/platziconf-logo.svg";
 import astronautsImage from "../images/astronauts.svg";
 
 export default class home extends Component {
@@ -12,11 +12,7 @@ export default class home extends Component {
         <div className="container">
           <div className="row">
             <div className="Home__col col-12 col-md-4">
-              <img
-                src={platziconfLogoImage}
-                alt="Platzi conf Logo"
-                className="img-fluid mb-2"
-              />
+              <h1>Prueba fabian pedraza</h1>
 
               <h1>Badges Management System</h1>
               <Link className="btn btn-primary" to="/badges">
